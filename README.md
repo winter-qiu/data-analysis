@@ -18,12 +18,38 @@ There are seven categories:
 
 ## 2. Modify data & Data Structure
 
+### Data structure
+
+### Modify data
+
 ## 3. Summarize data
+
+### Summarize data under normal format
+
+### Summarize data under pandas format
 
 ## 4. Analyze data
 
-## 5. Build REST API
+### Statistics
+
+### Visualization
+
+## 5. Build Model
+
+### Variable Selection
+
+### Classification
+
+### Regression
+
+### Text Mining
 
 ## 6. Machine Learning
+
+### Neural Network
+
+### Randome Forest
+
+### Support Vector Machine
 
 ## 7. Automatic Service
