@@ -34,26 +34,34 @@ my_file.close()
 
 ##############################################################################
 # Read a csv file
-# Read the whole file
-file_content = my_file.read()
+import csv
 
-# Read the each line of the object
-for line in my_file:
-    print(line)
+input_file = "myLocalFile.csv"
 
-# or 
-line1 = my_file.readline()
-line2 = my_file.readline()
+# read csv into a list of list
+with open(input_file) as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    for line in csv_reader:
+        # line is a list
+        print(line)
 
-# Close the file object
-my_file.close()
+# read csv into a list of dictionary
+with open(input_file, mode='r', encoding='utf-8-sig') as csv_file:
+    csv_reader = csv.DictReader(csv_file)
+    for line in csv_reader:
+        # line is a OrderedDict, and we just conver it to regular dict
+        print(dict(line))
 
+# read csv into a pandas DataFrame       
+import pandas as pd
+df = pd.read_csv(input_file)
 
 ##############################################################################
 # Read a JSON file
 import json
 
 input_file = "json_file.json"
+
 # regular JSON format
 with open(input_file,"r") as f:
     jsondata=json.load(f)
