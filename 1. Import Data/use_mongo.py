@@ -6,7 +6,9 @@ mongo_uri = os.getenv('MONGO_URI', 'mongodb://localhost:27017')
 client = MongoClient(mongo_uri)
 db = client.myloProdServer
 
-# find: if you just want to find some document without any calculation or change  
+# Find: if you just want to find some document without any calculation or change  
+# It's all a list of dicts, if there is only one document, 
+# then use [0] to access it
 find_data = list(
             db.collection.find(
                 {
@@ -21,7 +23,9 @@ find_data = list(
             )
         )
 
-# aggregate
+# Aggregate
+# More mongo unctions like $lookup, $unwind, $arrayElemAt, 
+# please check mongoDB document.
 aggregate_data = list(
             db.collection.aggregate([
                 {
