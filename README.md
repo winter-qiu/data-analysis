@@ -6,7 +6,7 @@ Coding Style follows: [PEP-8](https://www.python.org/dev/peps/pep-0008/)
 
 There are seven categories:
 
-## [1. Import data from different sources](Import Data)
+## [1. Import data from different sources](https://github.com/winter-qiu/data-analysis#1-import-data-from-different-sourcesimport-data)
 
 ### Local txt, csv, json file
 
