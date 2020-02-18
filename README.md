@@ -4,8 +4,12 @@
 
 ## 2. Modify data
 
-## 3. Glance data
+## 3. Summarize data
 
 ## 4. Analyze data
 
-## 5. Build Model
+## 5. Build REST API
+
+## 6. Machine Learning
+
+## 7. Auto Service
