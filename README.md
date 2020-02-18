@@ -1,5 +1,8 @@
 # data-analysis
 
+All code follow PEP-8
+```https://www.python.org/dev/peps/pep-0008/#package-and-module-names```
+
 ## 1. Import data from different sources
 
 ## 2. Modify data
