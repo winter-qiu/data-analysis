@@ -8,13 +8,13 @@ There are seven categories:
 
 ## 1. Import data from different sources
 
-### How to read local txt, csv, json file
+### Local txt, csv, json file
 
-### How to query data from MongoDB
+### MongoDB
 
-### How to query data from Elasticsearch
+### Elasticsearch
 
-### How to query data from Redshift
+### Redshift
 
 ## 2. Modify data & Data Structure
 
