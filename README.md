@@ -18,9 +18,9 @@ There are seven categories:
 
 ## 2. Modify data & Data Structure
 
-### Data structure
+### [Data structure](https://github.com/winter-qiu/data-analysis/blob/master/2.%20Modify%20Data%20%26%20Data%20Structure/data_structure.py)
 
-### Modify data
+### [Modify data](https://github.com/winter-qiu/data-analysis/blob/master/2.%20Modify%20Data%20%26%20Data%20Structure/modify_data.py)
 
 ## 3. Summarize data
 
