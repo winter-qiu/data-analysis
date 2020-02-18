@@ -1,7 +1,7 @@
 # Python has in-built functions to create and manipulate files. No need to import.
 
 ##############################################################################
-# Read an txt file
+# Read a txt file
 # Import an file object 
 my_file = open("myLocalFile.txt", mode="a+", encoding="utf-8")
 
@@ -69,3 +69,4 @@ with open(input_file,"r") as f:
 # NJSON format
 for line in open(input_file):
     line = eval(line)
+    
