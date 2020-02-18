@@ -8,9 +8,9 @@ There are seven categories:
 
 ## [1. Import data from different sources](https://github.com/winter-qiu/data-analysis/tree/master/1.%20Import%20Data)
 
-### Local txt, csv, json file
+### [Local txt, csv, json file](https://github.com/winter-qiu/data-analysis/blob/master/1.%20Import%20Data/read_local_file.py)
 
-### MongoDB
+### [MongoDB](https://github.com/winter-qiu/data-analysis/blob/master/1.%20Import%20Data/use_mongo.py)
 
 ### Elasticsearch
 
