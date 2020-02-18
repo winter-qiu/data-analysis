@@ -42,6 +42,8 @@ There are seven categories:
 
 ### Regression
 
+### Testing
+
 ### Text Mining
 
 ## 6. Machine Learning
